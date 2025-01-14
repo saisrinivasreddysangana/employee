@@ -61,4 +61,16 @@ public class EmployeeServiceImpl implements EmployeeService {
 				tax, cess);
 	}
 
+	@Override
+	public Employee updateEmployee(Long id, Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteEmployee(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

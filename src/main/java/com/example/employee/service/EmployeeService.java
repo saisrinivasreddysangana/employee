@@ -9,4 +9,12 @@ public interface EmployeeService {
 
 	TaxResponse calculateTax(Long id);
 
+	Employee updateEmployee(Long id, Employee employee);
+
+	void deleteEmployee(Long id);
+
+	
+
+	
+
 }
